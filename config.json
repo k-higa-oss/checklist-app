@@ -1,0 +1,71 @@
+{
+  "title": "チェックリストアプリ",
+  "subtitle": "管理者サイト情報を取り扱う際のチェックリスト",
+  "theme": {
+    "primaryColor1": "#fa709a",
+    "primaryColor2": "#764ba2",
+    "accentColor": "#667eea"
+  },
+  "managers": [
+    "馬度",
+    "上村",
+    "余貴",
+    "北村",
+    "高橋",
+    "角口",
+    "岡野",
+    "高宮",
+    "鈴木"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "order": 1,
+      "title": "対応者名を選択してください",
+      "description": "",
+      "type": "select",
+      "required": true,
+      "options": [],
+      "condition": null
+    },
+    {
+      "id": "q2",
+      "order": 2,
+      "title": "今回の対応内容は？",
+      "description": "",
+      "type": "radio",
+      "required": true,
+      "options": [
+        "NET認証盤をイントール",
+        "管理者サイトIDを伝える",
+        "パスワードを伝える"
+      ],
+      "condition": null
+    },
+    {
+      "id": "q3",
+      "order": 3,
+      "title": "チェック項目",
+      "description": "",
+      "type": "checkbox",
+      "required": false,
+      "options": [
+        "サーバーに格納確認",
+        "PDFファイル確認",
+        "シリアルNo確認"
+      ],
+      "condition": null
+    },
+    {
+      "id": "q4",
+      "order": 4,
+      "title": "その他の対応",
+      "description": "",
+      "type": "textarea",
+      "required": false,
+      "options": [],
+      "condition": null
+    }
+  ],
+  "adminPassword": null
+}
